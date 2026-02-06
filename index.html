@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 <body>
     <div class="container">
@@ -56,9 +57,9 @@
                         <span class="link-label">KEYBASE</span>
                         <span class="link-value">@amonodrama</span>
                     </a>
-                    <a href="mailto:monodrama16@proton.me" class="link-item">
+                    <a href="/cdn-cgi/l/email-protection#204d4f4e4f4452414d4111166050524f544f4e0e4d45" class="link-item">
                         <span class="link-label">EMAIL</span>
-                        <span class="link-value">monodrama16@proton.me</span>
+                        <span class="link-value"><span class="__cf_email__" data-cfemail="a1cccecfcec5d3c0ccc09097e1d1d3ced5cecf8fccc4">[email&#160;protected]</span></span>
                     </a>
                 </div>
 
@@ -80,7 +81,6 @@
             </aside>
 
             <main class="content">
-                <!-- ABOUT SECTION -->
                 <div id="aboutSection" class="section-content active">
                     <div class="terminal-box">
                         <div class="terminal-header">MOTD</div>
@@ -114,7 +114,7 @@
                             </div>
                             <div style="color: var(--text-dim); margin-bottom: 1rem;">
                                 <strong style="color: var(--primary-pink);">Email:</strong><br>
-                                <a href="mailto:monodrama16@proton.me">monodrama16@proton.me</a><br>
+                                <a href="/cdn-cgi/l/email-protection#eb868485848f998a868adaddab9b99849f8485c5868e"><span class="__cf_email__" data-cfemail="5f323031303b2d3e323e6e691f2f2d302b303171323a">[email&#160;protected]</span></a><br>
                             </div>
                             <div style="color: var(--text-dim);">
                                 <strong style="color: var(--primary-pink);">Fingerprint:</strong><br>
@@ -126,7 +126,6 @@
                     </div>
                 </div>
 
-                <!-- PROJECTS SECTION -->
                 <div id="projectsSection" class="section-content">
                     <div class="terminal-box">
                         <div class="terminal-header">REPOS</div>
@@ -138,7 +137,6 @@
                     </div>
                 </div>
 
-                <!-- CONTACT SECTION -->
                 <div id="contactSection" class="section-content">
                     <div class="terminal-box">
                         <div class="terminal-header">CONNECT</div>
@@ -162,15 +160,14 @@
                                 <span class="link-label">SPOTIFY</span>
                                 <span class="link-value">@amonodrama</span>
                             </a>
-                            <a href="mailto:monodrama16@proton.me" class="link-item" target="_blank">
+                            <a href="/cdn-cgi/l/email-protection#8de0e2e3e2e9ffece0ecbcbbcdfdffe2f9e2e3a3e0e8" class="link-item" target="_blank">
                                 <span class="link-label">EMAIL</span>
-                                <span class="link-value">monodrama16@proton.me</span>
+                                <span class="link-value"><span class="__cf_email__" data-cfemail="6a070504050e180b070b5b5c2a1a18051e050444070f">[email&#160;protected]</span></span>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <!-- GUESTBOOK SECTION -->
                 <div id="guestbookSection" class="section-content">
                     <div class="terminal-box">
                         <div class="terminal-header">GUESTBOOK // WEBRING</div>
@@ -178,7 +175,6 @@
                             <p style="font-size: 0.9rem;">Leave your message. You can add your website too. Hopefully this will be a big webring over time.</p>
                         </div>
 
-                        <!-- Guestbook Form -->
                         <div style="background: rgba(0, 0, 0, 0.3); padding: 1rem; border: 1px solid var(--border-color); margin-bottom: 1.5rem;">
                             <form id="guestbookForm" onsubmit="submitGuestbookEntry(event)">
                                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem;">
@@ -209,7 +205,6 @@
                             </form>
                         </div>
 
-                        <!-- Guestbook Entries -->
                         <div class="terminal-header" style="margin-top: 1.5rem;">ENTRIES</div>
                         <div id="guestbookEntries" style="margin-top: 1rem;">
                             <div style="text-align: center; padding: 2rem; color: var(--text-dim);">
@@ -221,7 +216,6 @@
                     </div>
                 </div>
 
-                <!-- PGP SECTION -->
                 <div id="pgpSection" class="section-content">
                     <div class="terminal-box">
                         <div class="terminal-header">PGP KEY</div>
@@ -306,7 +300,107 @@
         </footer>
     </div>
 
-        <script>
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        function initAnimeAnimations() {
+
+            anime({
+                targets: '.terminal-box',
+                opacity: [0, 1],
+                translateY: [30, 0],
+                delay: anime.stagger(100),
+                duration: 800,
+                easing: 'easeOutQuad'
+            });
+
+            anime({
+                targets: '.glitch',
+                scale: [0.95, 1],
+                opacity: [0, 1],
+                duration: 1000,
+                easing: 'easeOutElastic(1, .6)'
+            });
+
+            anime({
+                targets: 'nav a',
+                opacity: [0, 1],
+                translateX: [-20, 0],
+                delay: anime.stagger(80, {start: 500}),
+                duration: 600,
+                easing: 'easeOutQuad'
+            });
+
+            anime({
+                targets: '.profile-img',
+                scale: [0, 1],
+                rotate: [180, 0],
+                opacity: [0, 1],
+                duration: 1200,
+                delay: 300,
+                easing: 'easeOutElastic(1, .8)'
+            });
+
+            anime({
+                targets: '.link-item',
+                opacity: [0, 1],
+                translateX: [-15, 0],
+                delay: anime.stagger(60, {start: 800}),
+                duration: 500,
+                easing: 'easeOutQuad'
+            });
+
+            anime({
+                targets: '.status-dot',
+                scale: [1, 1.2, 1],
+                duration: 2000,
+                loop: true,
+                easing: 'easeInOutSine'
+            });
+
+            document.querySelectorAll('nav a').forEach(link => {
+                link.addEventListener('mouseenter', function() {
+                    anime({
+                        targets: this,
+                        scale: 1.05,
+                        duration: 300,
+                        easing: 'easeOutQuad'
+                    });
+                });
+                
+                link.addEventListener('mouseleave', function() {
+                    anime({
+                        targets: this,
+                        scale: 1,
+                        duration: 300,
+                        easing: 'easeOutQuad'
+                    });
+                });
+            });
+
+            document.querySelectorAll('.link-item').forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    anime({
+                        targets: this,
+                        translateX: 5,
+                        duration: 300,
+                        easing: 'easeOutQuad'
+                    });
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    anime({
+                        targets: this,
+                        translateX: 0,
+                        duration: 300,
+                        easing: 'easeOutQuad'
+                    });
+                });
+            });
+        }
+
+        window.addEventListener('DOMContentLoaded', function() {
+            initAnimeAnimations();
+        });
+
         const DISCORD_USER_ID = '315590911776260096';
         
         let spotifyData = null;
@@ -373,12 +467,19 @@
                 }
                 
                 spotifyData = spotify;
+                
+                anime({
+                    targets: '.music-player',
+                    scale: [0.98, 1],
+                    duration: 500,
+                    easing: 'easeOutQuad'
+                });
             } else {
                 albumArt.innerHTML = '<span style="font-size: 3rem; opacity: 0.3;">♪</span>';
                 albumArt.classList.remove('playing');
                 trackTitle.textContent = 'Not Playing';
                 trackArtist.textContent = 'No active Spotify session';
-                trackAlbum.textContent = 'Connect Spotify to Discord to see live playback';
+                trackAlbum.textContent = '';
                 progressBar.style.width = '0%';
                 currentTime.textContent = '0:00';
                 totalTime.textContent = '0:00';
@@ -427,6 +528,13 @@
                             statusBadge.className = 'discord-badge offline';
                     }
                     
+                    anime({
+                        targets: [statusIndicator, statusBadge],
+                        scale: [1.1, 1],
+                        duration: 400,
+                        easing: 'easeOutElastic(1, .6)'
+                    });
+                    
                     updateSpotifyDisplay(spotify);
                 } else {
                     throw new Error('Invalid API response');
@@ -450,18 +558,48 @@
         }
 
         function showSection(sectionName) {
-            document.querySelectorAll('.section-content').forEach(section => {
-                section.classList.remove('active');
+            const activeSections = document.querySelectorAll('.section-content.active');
+            activeSections.forEach(section => {
+                anime({
+                    targets: section,
+                    opacity: 0,
+                    translateY: -20,
+                    duration: 300,
+                    easing: 'easeInQuad',
+                    complete: function() {
+                        section.classList.remove('active');
+                    }
+                });
             });
             
-            const targetSection = document.getElementById(sectionName + 'Section');
-            if (targetSection) {
-                targetSection.classList.add('active');
-                
-                if (sectionName === 'projects' && !window.reposLoaded) {
-                    loadGitHubRepos();
+            setTimeout(() => {
+                const targetSection = document.getElementById(sectionName + 'Section');
+                if (targetSection) {
+                    targetSection.classList.add('active');
+                    
+                    anime({
+                        targets: targetSection,
+                        opacity: [0, 1],
+                        translateY: [20, 0],
+                        duration: 500,
+                        easing: 'easeOutQuad'
+                    });
+
+                    const boxes = targetSection.querySelectorAll('.terminal-box');
+                    anime({
+                        targets: boxes,
+                        opacity: [0, 1],
+                        translateY: [30, 0],
+                        delay: anime.stagger(100, {start: 200}),
+                        duration: 600,
+                        easing: 'easeOutQuad'
+                    });
+                    
+                    if (sectionName === 'projects' && !window.reposLoaded) {
+                        loadGitHubRepos();
+                    }
                 }
-            }
+            }, 350);
         }
 
         let reposLoaded = false;
@@ -527,6 +665,15 @@
                         </div>
                     </div>
                 `).join('');
+                
+                anime({
+                    targets: '.repo-card',
+                    opacity: [0, 1],
+                    translateY: [30, 0],
+                    delay: anime.stagger(80),
+                    duration: 600,
+                    easing: 'easeOutQuad'
+                });
                 
                 window.reposLoaded = true;
             } catch (error) {
@@ -650,14 +797,31 @@
                 color: ${textColor}; 
                 font-family: VT323, monospace; 
                 font-size: 1.1rem;
-                animation: flicker 0.5s;
+                opacity: 0;
             `;
             notification.textContent = message;
             
             const formSection = document.querySelector('#guestbookForm').parentElement;
             formSection.parentElement.insertBefore(notification, container);
             
-            setTimeout(() => notification.remove(), 5000);
+            anime({
+                targets: notification,
+                opacity: [0, 1],
+                translateY: [-20, 0],
+                duration: 400,
+                easing: 'easeOutQuad'
+            });
+            
+            setTimeout(() => {
+                anime({
+                    targets: notification,
+                    opacity: 0,
+                    translateY: -20,
+                    duration: 300,
+                    easing: 'easeInQuad',
+                    complete: () => notification.remove()
+                });
+            }, 4700);
         }
 
         function loadGuestbookEntries() {
@@ -686,7 +850,7 @@
             entries.sort((a, b) => b.timestamp - a.timestamp);
 
             container.innerHTML = entries.map(entry => `
-                <div style="background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-color); padding: 1rem; margin-bottom: 1rem; position: relative;">
+                <div class="guestbook-entry" style="background: rgba(0, 0, 0, 0.3); border: 1px solid var(--border-color); padding: 1rem; margin-bottom: 1rem; position: relative; opacity: 0;">
                     <div style="display: flex; gap: 1rem; align-items: start;">
                         <div style="flex-shrink: 0;">
                             <img src="${entry.avatar || 'data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22%3E%3Crect fill=%22%23ff0080%22 width=%22100%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 font-size=%2250%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23000%22%3E${entry.name.charAt(0).toUpperCase()}%3C/text%3E%3C/svg%3E'}" 
@@ -712,6 +876,15 @@
                         </div>
                     </div>
                 `).join('');
+            
+            anime({
+                targets: '.guestbook-entry',
+                opacity: [0, 1],
+                translateX: [-20, 0],
+                delay: anime.stagger(80),
+                duration: 500,
+                easing: 'easeOutQuad'
+            });
         }
 
         function escapeHtml(text) {
